@@ -1,3 +1,7 @@
+from weapon import Weapon
+
+
+
 class Robot:
     def __init__(self, name, HP, weapon):
         self.robot_name = ()
@@ -9,3 +13,5 @@ class Robot:
 robot_1 = ('Juliana', 10, 1)
 robot_2 = ('Benjamin', 10, 2)
 robot_3 = ('Alex', 10, 3)
+
+fleet1 = [robot_1, robot_2, robot_3]
