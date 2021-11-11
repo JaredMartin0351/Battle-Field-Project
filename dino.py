@@ -4,7 +4,6 @@ from weapon import Weapon
 
 
 class Dino:
-    shape = 'Triangle'
     
     def __init__(self, name, hp, atk):
         self.name = ('Jared')
@@ -21,8 +20,8 @@ class Dino:
 
 
 
-    dino_1 = ('Jared', 15, 2)
-    dino_2 = ('Casandra', 15, 2)
-    dino_3 = ('Torrence', 15, 2)
+    dino_1 = ('Jared', 15, 1)
+    dino_2 = ('Casandra', 15, 1)
+    dino_3 = ('Torrence', 15, 1)
 
     herd1 = [dino_1, dino_2, dino_3]

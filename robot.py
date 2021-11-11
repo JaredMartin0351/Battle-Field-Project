@@ -3,7 +3,6 @@ from weapon import Weapon
 
 
 class Robot:
-    shape = 'Square'
     
     def __init__(self, name, hp, weapon):
         self.name = ('Juliana')
