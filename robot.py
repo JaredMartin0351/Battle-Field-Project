@@ -6,6 +6,6 @@ class Robot:
 
 
 
-robot_1 = ('Alex', 10, 3)
+robot_1 = ('Juliana', 10, 1)
 robot_2 = ('Benjamin', 10, 2)
-robot_3 = ('Juliana', 10, 1)
+robot_3 = ('Alex', 10, 3)
