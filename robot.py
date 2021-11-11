@@ -3,11 +3,21 @@ from weapon import Weapon
 
 
 class Robot:
-    def __init__(self, name, HP, weapon):
-        self.robot_name = ()
-        self.robot_health = ()
-        self.robot_weapon = ()
+    shape = 'Square'
+    
+    def __init__(self, name, hp, weapon):
+        self.name = ('Juliana')
+        self.hp = hp
+        #self.atk = ()
+        self.weapon = weapon
+    
+    def attack(self, enemy):
+        if enemy.hp > self.weapon:
+            enemy.hp = enemy.hp - self.weapon
+        else:
+            enemy.hp = 0
 
+        
 
 
 

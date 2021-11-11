@@ -6,5 +6,7 @@ from dino import herd1
 
 
 class Battlefield:
-    def __init__(self, herd1,fleet1):
-        print(herd1)
+    
+    
+    #def __init__(self, herd1,fleet1):
+        #print(herd1)

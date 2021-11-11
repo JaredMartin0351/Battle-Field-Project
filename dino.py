@@ -1,8 +1,23 @@
+from weapon import Weapon
+
+
+
+
 class Dino:
-    def __init__(self):
-        self.name = ()
-        self.dino_health = ()
-        self.dino_attack = ()
+    shape = 'Triangle'
+    
+    def __init__(self, name, hp, atk):
+        self.name = ('Jared')
+        self.hp = hp
+        self.atk = atk
+    
+    def attack(self, enemy):
+        if enemy.hp > self.atk:
+            enemy.hp = enemy.hp - self.atk
+        else:
+            enemy.hp = 0
+
+
 
 
 
