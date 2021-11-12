@@ -7,29 +7,38 @@
 
 class Weapon:
     def __init__(self):
-        self.wep1 = ('Broad Sword', 2)
-        self.wep2 = ('Laser Gun', 2)
-        self.wep3 = ('Buzz Saw', 2)
+        wep1 = ('Broad Sword', 2)
+        wep2 = ('Laser Gun', 2)
+        wep3 = ('Buzz Saw', 2)
 
 
     def weapon_select1(self):
-        print(self.wep1)
-        print(self.wep2)
-        print(self.wep3)
+        wep1 = ('Broad Sword', 2)
+        wep2 = ('Laser Gun', 2)
+        wep3 = ('Buzz Saw', 2)
+        print(wep1)
+        print(wep2)
+        print(wep3)
         yourwep = input('Please choose your weapon: ')
         return yourwep
 
     def weapon_select2(self):
-        print(self.wep1)
-        print(self.wep2)
-        print(self.wep3)
+        wep1 = ('Broad Sword', 2)
+        wep2 = ('Laser Gun', 2)
+        wep3 = ('Buzz Saw', 2)
+        print(wep1)
+        print(wep2)
+        print(wep3)
         yourwep = input('Please select your weapon: ')
         return yourwep
 
     def weapon_select3(self):
-        print(self.wep1)
-        print(self.wep2)
-        print(self.wep3)
+        wep1 = ('Broad Sword', 2)
+        wep2 = ('Laser Gun', 2)
+        wep3 = ('Buzz Saw', 2)
+        print(wep1)
+        print(wep2)
+        print(wep3)
         yourwep = input('Please select your weapon: ')
         return yourwep
         #wep1 = 'Broad Sword'
