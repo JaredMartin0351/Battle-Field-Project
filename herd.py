@@ -1,19 +1,31 @@
 from dino import Dino
-#from dino import herd1
+
+
+
+dino1 = Dino
+dino2 = Dino
+dino3 = Dino
+
 
 
 
 class Herd:
-    def __init__(self, herd1):
+    def __init__(self):
         self.herd1 = []
 
 
-
     def create_herd(self):
-        dino1 = Dino('Jared', 15, 2)
-        dino2 = Dino('Casandra', 15, 2)
-        dino3 = Dino('Torrence', 15, 2)
-
+        dino1.name_dino1(dino1)
+        dino2.name_dino2(dino2)
+        dino3.name_dino3(dino3)
         self.herd1.append(dino1)
         self.herd1.append(dino2)
         self.herd1.append(dino3)
+        
+
+
+
+
+
+
+
