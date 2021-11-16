@@ -18,6 +18,7 @@ robo3 = Robot('Robot: Alex', 10, 5)
 wep1 = Weapon('Sword', 3)
 wep2 = Weapon('Laser', 3)
 
+
 herd = [dino1, dino2, dino3]
 fleet = [robo1, robo2, robo3]  
 
@@ -69,6 +70,11 @@ class Fight:
                                 sys.exit()
                         else:
                                 self = int(input('Please choose your attacker: [1] for Benjamin, [2] for Juliana, [3] for Alex: '))
+                                wepch.weapon_choice()
+                                if wepch == 1:
+                                        wepch.wepatk = wep1
+                                else:
+                                        wepch.wepatk = wep2
                                 if self == 1:
                                         self = robo1
                                         if robo1.hp <=0:
@@ -171,8 +177,10 @@ class Fight:
         
                         
          
-                                    
-fight=Fight()
+wep1 = Weapon('Sword', 3)
+wep2 = Weapon('Laser', 3)
+wepch = Weapon('','')                                    
+fight = Fight()
 fight.enter()
 robofight = fight.fight_robo_atk()
 dinofight = fight.fight_dino_atk()
