@@ -1,8 +1,6 @@
 
 
 
-
-
 class Weapon:
     def __init__(self, name, wepatk):
         self.name = name
@@ -19,8 +17,6 @@ class Weapon:
         else:
             print('Fine, I guess I will choose')
             return wep1
- 
-
         
         
     
